@@ -3,10 +3,13 @@
  ***************************************************************/
 .remark-slides-area .remark-slide-container:first-child .remark-slide-content {
     background-color: white;
-    padding: 200px 55px 0;
+    padding: 12rem 4rem 0;
 }
 .remark-slides-area .remark-slide-container:first-child .remark-slide-content h4 {
     margin-bottom: 0;
+}
+.remark-slides-area .remark-slide-container:first-child .remark-slide-number {
+    display: none;
 }
 
 /***************************************************************
@@ -14,7 +17,7 @@
  ***************************************************************/
 .remark-slides-area .remark-slide-container:nth-child(1n+2) .remark-slide-content {
     background-color: white;
-    padding: 100px 35px 0;
+    padding: 5rem 4rem 0;
 
 }
 .remark-slides-area .remark-slide-container:nth-child(1n+2) .remark-slide-content > *:not(h1):not(.remark-slide-number){
@@ -24,10 +27,10 @@
     font-size: 3rem;
 }
 
-.remark-slide-container:nth-child(1n+2) .remark-slide-content {
-    background-image: url('../img/logo.png');
-    background-position: 99% 0%;
-    background-size: 210px 70px;
+.remark-slide-container:nth-child(1n) .remark-slide-content {
+    background-image: url('../img/logo.svg');
+    background-position: 99% 2%;
+    background-size: 20%;
 }
 
 /***************************************************************
@@ -64,12 +67,12 @@ table {
 }
 
 th, td {
-    padding: 5px;
+    padding: 0.3rem;
     border: 1px solid black;
 }
 
 table tr {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .remark-code {
@@ -92,4 +95,16 @@ table tr {
          top: 0 !important;
          left: 0 !important;
     }
+}
+
+.blue {
+    color: #1794D1;
+}
+
+.gray {
+	color: #4d4d4d;
+}
+
+.small {
+	font-size: 75%;
 }
