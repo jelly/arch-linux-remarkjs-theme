@@ -96,3 +96,15 @@ table tr {
          left: 0 !important;
     }
 }
+
+.blue {
+    color: #1794D1;
+}
+
+.gray {
+	color: #4d4d4d;
+}
+
+.small {
+	font-size: 75%;
+}
