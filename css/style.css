@@ -24,10 +24,10 @@
     font-size: 3rem;
 }
 
-.remark-slide-container:nth-child(1n+2) .remark-slide-content {
-    background-image: url('../img/logo.png');
-    background-position: 99% 0%;
-    background-size: 210px 70px;
+.remark-slide-container:nth-child(1n) .remark-slide-content {
+    background-image: url('../img/logo.svg');
+    background-position: 99% 2%;
+    background-size: 20%;
 }
 
 /***************************************************************
