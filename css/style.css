@@ -8,6 +8,9 @@
 .remark-slides-area .remark-slide-container:first-child .remark-slide-content h4 {
     margin-bottom: 0;
 }
+.remark-slides-area .remark-slide-container:first-child .remark-slide-number {
+    display: none;
+}
 
 /***************************************************************
  *  normal slide
