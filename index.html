@@ -30,7 +30,9 @@ count: false
     <script src="js/remark-latest.min.js">
     </script>
     <script>
-      const slideshow = remark.create();
+        const slideshow = remark.create({
+            ratio: '16:9',
+        });
     </script>
   </body>
 </html>
